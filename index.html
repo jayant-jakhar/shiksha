@@ -10,22 +10,50 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,500;1,600&family=Syne:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Gabriela&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,500;1,600&family=Syne:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
     
 
-<!-- <nav></nav> -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Shiksha Arpan</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#courses">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#tutor">Tutoring</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#discussion">Discussion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 
 
 <div class="hero" id="home">
-    <img class="home_pic" src="assets/logo.png" alt="logo">
-    <!-- <div class="home_div"> -->
+    <img class="home_pic" src="assets/Prime.png" alt="logo">
+    
         <p class="home_para">Welcome to Shiksha Arpan, your gateway to limitless learning possibilities. We offer an intuitive and immersive educational experience that ignites curiosity and fosters exploration.</p>
-        <!-- </div> -->
 
     <div class="cta-primary">
-    <a class="btn">Begin your Journey</a></div>
+    <a class="btun">Begin your Journey</a></div>
 </div>
 
 
@@ -34,7 +62,7 @@
     <div class="courses_div">
         <p class="courses_para">Embark on a journey of academic excellence with our comprehensive range of courses, designed by expert educators. Whether you're a curious explorer or an ambitious achiever, our courses will inspire and empower you to thrive.</p>
         </div>
-    <div class="cta-courses"><a class="btn">Explore Courses</a></div>
+    <div class="cta-courses"><a class="btun">Explore Courses</a></div>
 </div>
 </div>
 
@@ -43,7 +71,7 @@
     <div class="tutor_div">
         <p  class="tutor_para">Need personalized assistance to conquer challenging subjects? Our dedicated team of expert tutors is available 24/7, ready to guide you through every academic hurdle via one-on-one tutoring sessions.</p>
     </div>
-    <div class="cta-tutor"><a class="btn">Book Your Session</a></div>
+    <div class="cta-tutor"><a class="btun">Book Your Session</a></div>
 </div>
 </div>
 
@@ -52,17 +80,22 @@
     <div class="disc_div">
         <p  class="disc_para"> Connect with a community of inquisitive minds, where students and tutors come together to share knowledge and support each other. Ask questions, offer insights, and expand your understanding of various subjects.</p>
     </div>
-    <div class="cta-disc"><a class="btn">Join the Discussion</a></div>
+    <div class="cta-disc"><a class="btun">Join the Discussion</a></div>
 </div>    
 </div>
 
+
+
 <hr>
+
+
+
 
 <div class="contact">
     <ul>
-        <a href=""><li>Services</li></a>
-        <a href=""><li>About</li></a>
-        <a href=""><li>Contact us</li></a>
+       <li><a href="">Services</a></li>
+       <li><a href="">about</a></li>
+       <li><a href="">Contact us</a></li>
     </ul>
     <ul>
         <li>351, XYZ, Sadar Road </li>
@@ -72,12 +105,13 @@
 
 <div class="footer">
     <a href=""><i class="fa-brands fa-twitter"></i></a>
-    <p class="">© Shiksha Arpan</p>
+    <p class="footline">© Shiksha Arpan</p>
     <a href=""><i class="fa-brands fa-facebook"></i></a>
 </div>
 
-
-
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+   
 
 </body>
 </html>
